@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+h1.title{
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 50pt;
+	color: orange;
+}
+
+#title{
+	display: inline;
+}
+.logo{
+	float: left;
+	object-fit: cover;
+    width: 75px;
+    padding: 10px;
+}
+.float_form{
+	float: left;
+}
+.center_form{
+	float: center;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+	background: white;
+	font-family: sans-serif;
+	margin: 0px;
+    
+}
+.container {
+	 background-color: #fff;
+	 width: 350px;
+	 height: 512px;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 border-radius: 8px;
+	 left: 30%;
+	 right: 50%;
+	 box-shadow: 0px 0px 10px 2px #dee5f4;
+	 color: #3c4454;
+	 z-index: 9999999;
+}
+ h1.passlog  {
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	 height: 48px;
+	 background: #4985ff;
+	 font-size: 13px;
+	 text-align: center;
+	 line-height: 3.2;
+	 color: #fff;
+}
+ ul.ulcont{
+	 padding: 16px 24px 26px 24px;
+	 height: calc(100% - 70px);
+	 list-style-type: none;
+	 z-index: 999;
+	 display: grid;
+	 grid-template-columns: 1fr;
+	 grid-template-rows: repeat(5, 1fr);
+}
+ li.licont{
+	 position: relative;
+	 font-size: 13px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: space-between;
+	 align-items: center;
+}
+li.f_row {
+	font-size: 13px;
+	padding-bottom: 1px;
+	padding-right: 20px;
+}
+li.f_row .arrow {
+	height: 20px;
+	width: 30px;
+	color: #989da6;
+	opacity: 0.3;
+}
+li.f_row .san:after, li.f_row .moscow:after {
+	bottom: -10px;
+	position: absolute;
+	content: attr(data);
+	font-size: 13px;
+	color: #989da6;
+}
+li.f_row .san:after {
+	right: 0;
+}
+li.f_row .moscow:after {
+	left: 0;
+}
+li.f_row .san {
+	width: 96px;
+}
+li.s_row {
+	background: #f4f7ff;
+	margin-top: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	height: 80px;
+	padding: 0px 16px 8px 16px;
+}
+li.s_row .flight {
+	width: 50%;
+}
+li.s_row .flight, li.s_row .gate, li.s_row .seat {
+	position: relative;
+}
+li.s_row .flight:after, li.s_row .seat:after, li.s_row .gate:after {
+	top: -28px;
+	left: 0;
+	position: absolute;
+	content: attr(data);
+	font-size: 13px;
+}
+li.t_row {
+	overflow: visible;
+	margin-top: 40px;
+}
+li.t_row .date, li.t_row .boarding {
+	position: relative;
+}
+li.t_row .date:after, li.t_row .boarding:after {
+	top: -27px;
+	position: absolute;
+	content: attr(data);
+	font-weight: 500;
+	font-size: 13px;
+}
+li.t_row .date:after {
+	left: 0;
+}
+li.t_row .boarding:after {
+	right: 0;
+}
+li.fo_row {
+	margin-top: 34px;
+	text-transform: uppercase;
+}
+li.fo_row .passenger {
+	position: relative;
+}
+li.fo_row .passenger:after {
+	text-transform: none;
+	top: -28px;
+	left: 0;
+	position: absolute;
+	content: attr(data);
+	font-size: 13px;
+}
+li.fi_row {
+	overflow: hidden;
+	align-self: end;
+	height: 45px;
+	width: 100%;
+}
+li.fi_row svg.barcode {
+	margin-right: 3px;
+	fill: #3c4454;
+	height: 200%;
+	width: 100%;
+}
+ul.navi{
+	list-style-type:disc;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: #030337;
+}
+li.linavi{
+	display:inline-flex;
+	float:left;
+	position: relative;
+	font-size:16px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+}
+
+li.linavi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+li.linavi a:hover {
+    background-color: #E7E7F6;
+    color: #030337;
+}
+
+a  {
+	color: #030337;
+	text-decoration: none;
+	padding-left: 20px;
+	cursor: pointer;
+}
+a:hover{
+	background-color: white;
+	color: #030337;
+}

@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  padding:50px;
+  
+}
+.sub-container{
+  border: 2px dodgerblue;
+  border-style:solid;
+  border-radius: 10px;
+  margin: 10px;
+  min-height: 75vh;
+  font-family: 'Roboto', sans-serif;
+  
+}
+ul.tic {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.5rem 0;
+  margin: 0;
+  border-top: 2px solid #d5e6eb;
+}
+ul.tic:first-of-type {
+  margin: 1rem 0 0 0;
+}
+ul.tic:last-of-type {
+  padding-bottom: 0;
+}
+ul.ticli {
+  width: 33.33333%;
+}
+ul.tic li:last-of-type {
+  text-align: right;
+}
+span {
+  color: #848484;
+  font-size: 0.8rem;
+}
+h1, h4 {
+  margin: 0;
+}
+.boarding-pass {
+  width:auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;  
+}
+.boarding-pass__top {
+  width: 100%;
+}
+.boarding-pass__top .top__img {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  text-align: center; 
+  border: 2px solid #d5e6eb;
+  border-radius: 150px;
+}
+.boarding-pass__top .top__text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.boarding-pass__top .top__text h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+}
+.boarding-pass__top .top__text span {
+  margin: 0.2rem 0 0 0;
+  display: block;
+  text-align: center;
+}
+.boarding-pass__details ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.boarding-pass__details ul li h4 {
+  margin-top: 0.8rem;
+}
+/* nav*/
+body{ 
+background: white;
+color: #030337;
+font-family: sans-serif;
+margin: 0px;
+}
+h1.title{
+font-family: sans-serif;
+font-style: bold;
+font-size: 50pt;
+color: orange;
+}
+#title{
+display: inline;
+}
+.logo{
+float: left;
+object-fit: cover;
+  width: 55px;
+  padding: 10px;
+}
+ul.nav{
+list-style-type:disc;
+margin: 0;
+padding: 0;
+overflow: hidden;
+  background-color: #030337;
+}
+li.nav{
+display:inline-flex;
+float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #E7E7F6;
+  color: #030337;
+}
+
+a {
+color: #030337;
+text-decoration: none;
+padding-left: 20px;
+cursor: pointer;
+}
+a:hover{
+background-color: white;
+color: #030337;
+}
+
